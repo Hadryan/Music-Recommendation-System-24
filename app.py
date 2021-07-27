@@ -135,10 +135,14 @@ def make_song_recommendations(sp, kneighs, query):
     playlist = []
     for each in nbrs[0]:
         the_rec_song = song_artist_from_key(sp, X_knn_transformed.iloc[each].name)
-        print((the_rec_song[0:2]))
-        if (((the_rec_song[0:2]) != song_plus_artist[0:2]) and
-           ((the_rec_song) not in playlist)):
-            playlist.append(song_artist_from_key(sp, X_knn_transformed.iloc[each].name))
+        songBoolean = True
+        if (((the_rec_song[0:2]) != song_plus_artist[0:2])):
+            for song in playlist:
+                if(the_rec_song[0:2] == song[0:2]):
+                    songBoolean = False
+            # Used to ensure that the same song by the same artist but with different links isn't shown.
+            if(songBoolean):
+                playlist.append(song_artist_from_key(sp, X_knn_transformed.iloc[each].name))
     return (playlist)
 
 
