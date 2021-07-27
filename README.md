@@ -1,4 +1,4 @@
-# Music-Recommendation-System
+# Music Recommendation System
 
 ### Business Problem:
 
@@ -12,13 +12,30 @@ The data was acquired, through the Spotify api alongside the Spotipy library, fr
 
 We want to score the model based on how correct it was in predicting the overall genre as well as taking a loss for predicting an incorrect genre. Since the severity of getting a genre wrong isn't high, the F1 score will be our metric since we want the model to get a general idea of what each genre may be. The f1-score won’t necessarily be extremely close to 1 because it may predict a hip-hop song as pop song and vice-versa and that line in actuality is sometimes blurred.  
 
+When predicting the genres, the models consisted of Logistic Regressions, Gradient Boosted Classifiers, XGBoost Classifiers, and Voting Classifier. The data was altered using a combination of One Hot Encoder, SMOTE, Grid Search, Standard Scaling, Pipelines, or Normalization. When predicting for recommendations of songs, the model was the Nearest Neighbors with an n_neighbors of 15, the metric as cosine simliarity, and the radius of 0.45. 
+
 ---
 ### Results
-
+The first simple model had a testing 
+FSM - Logistic Regression:
+  Training F1 Score: 0.64
+  Testing F1 Score: 0.63
+Logistic Regression + Pipeline(OHE + SS) + GridSearchCV:
+  Training F1 Score: 0.66
+  Testing F1 Score: 0.63
+XGBClassifier + OHE + SMOTE: 
+  Training F1 Score: 0.79 
+  Testing F1 Score: 0.67
+GradientBoostingClassifier + OHE + SMOTE:
+  Training F1 Score: 0.81
+  Testing F1 Score: 0.68
+XGBClassifier + OHE + Balanced Class Weight:
+  Training F1 Score: 0.74
+  Testing F1 Score: 0.68
 
 ---
-### Conclusions
-
+### Conclusion
+We were able to first predict the genre of user inputted song and provide recommendations based off said song. Using the predicted genre rather than the artist's genre, we were able to provide users songs that relate to said song itself rather than having influence from the artist. The model isn't perfect when working with genres that it hasn't been trained on, but maybe adding songs from other genres can help the model predict better recommendations. 
 
 ---
 ### Further Exploration
