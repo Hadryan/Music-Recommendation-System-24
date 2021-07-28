@@ -37,12 +37,15 @@ Some Models Included:
 
 The Voting Classifier yielded the best training and testing score (when comparing unrounded). The models were never expected to get a high f1-score but moreso learn the general idea of what each genre is while getting most of the genres correct. The wrong genres may not be actually wrong but that the song may actually belong to another genre. 
 <br><br>
-![Genre Confusion Matrix![music-recommendation-challenge](https://user-images.githubusercontent.com/38678270/127257948-4ba31589-13bf-49d0-aa7e-3a181bde0867.jpeg)
-](https://user-images.githubusercontent.com/38678270/127257820-30082596-5e52-4b00-8580-03ca35f7a94c.png)
 
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/38678270/127257820-30082596-5e52-4b00-8580-03ca35f7a94c.png">
+</p>
 
 With the nearest neighbors result, comparing the results is quite subjective. Although the model isn't quite perfect, I can say it gives some pretty good recommendations. From what I hear, I can make out why the songs recommended were recommended.. although I may be biased. <br><br>
-![Music Recommendations](https://user-images.githubusercontent.com/38678270/127254200-9c07bb0e-7cf7-47b7-9c4d-e654a9df354b.png)
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/38678270/127254200-9c07bb0e-7cf7-47b7-9c4d-e654a9df354b.png">
+</p>
 
 ---
 ### Conclusion
