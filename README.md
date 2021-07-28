@@ -18,6 +18,7 @@ When predicting the genres, the models consisted of Logistic Regressions, Gradie
 ---
 ### Results
 
+Some Models Included: 
 - FSM - Logistic Regression:
   - Training F1 Score:  0.64
   - Testing F1 Score:   0.60
@@ -28,14 +29,6 @@ When predicting the genres, the models consisted of Logistic Regressions, Gradie
 
 - XGBClassifier + OHE + SMOTE: 
   - Training F1 Score:  0.79
-  - Testing F1 Score:   0.67
-  
-- GradientBoostingClassifier + OHE + SMOTE:
-  - Training F1 Score:  0.83
-  - Testing F1 Score:   0.68
-  
-- XGBClassifier + OHE + Balanced Class Weight:
-  - Training F1 Score:  0.75
   - Testing F1 Score:   0.67
   
 - **Voting Classifier ((GradientBoostingClassifier + OHE + SMOTE) + (XGBClassifier + OHE + Balanced Class Weight))**
