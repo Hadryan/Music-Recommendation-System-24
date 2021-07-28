@@ -56,6 +56,7 @@ We were able to first predict the genre of user inputted song and provide recomm
   - Add more songs
   - Add more genres
   - More accurately predict genres for a song
+  - Add a way to incorporate user listening history and predict songs from their history
 ---
 ### Attributes
 
