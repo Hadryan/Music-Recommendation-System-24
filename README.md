@@ -35,11 +35,11 @@ Some Models Included:
   - **Training F1 Score: 0.76**
   - **Testing F1 Score: 0.68**
 
-The Voting Classifier yielded the best testing score (when comparing unrounded) with the lowest variance. The models were never expected to get a high f1-score but moreso learn the general idea of what each genre is while getting most of the genres correct. The wrong genres may not be actually wrong but that the song may actually belong to another genre. 
-<br><br>
+The Voting Classifier yielded the best testing score (when comparing unrounded) with the lowest variance. The models were never expected to get a high f1-score but moreso learn the general idea of what each genre is while getting most of the genres correct. The wrong genres may not be actually wrong but that the song may actually belong to another genre. Following is the confusion matrix for the whole dataset with the best model:
+<br>
 
 <p align="center">
-  <img  src="https://user-images.githubusercontent.com/38678270/127418162-047cc5ae-779f-43f8-9e22-100482aa9a36.png">
+  <img  src="https://user-images.githubusercontent.com/38678270/127542159-61d76573-68fe-463f-a1ba-aeb0a3aac784.png">
 </p>
 
 With the nearest neighbors result, comparing the results is quite subjective. Although the model isn't quite perfect, I can say it gives some pretty good recommendations. From what I hear, I can make out why the songs recommended were recommended.. although I may be biased. <br><br>
