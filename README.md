@@ -49,7 +49,7 @@ With the nearest neighbors result, comparing the results is quite subjective. Al
 
 ---
 ### Conclusion
-We were able to first predict the genre of user inputted song and provide recommendations based off said song. Using the predicted genre rather than the artist's genre, we were able to provide users songs that relate to said song itself rather than having influence from the artist. The model isn't perfect when working with genres that it hasn't been trained on, but maybe adding songs from other genres can help the model predict better recommendations. 
+We were able to first predict the genre of user inputted song and provide recommendations based off said song. Using the predicted genre rather than the artist's genre, we were able to provide users songs that relate to said song itself rather than having influence from the artist. The model isn't perfect when working with genres that it hasn't been trained on, but maybe adding songs from other genres, as well as more songs in general, can help the model predict better recommendations. 
 
 ---
 ### Further Exploration
