@@ -39,7 +39,7 @@ The Voting Classifier yielded the best testing score (when comparing unrounded) 
 <br><br>
 
 <p align="center">
-  <img  src="https://user-images.githubusercontent.com/38678270/127257820-30082596-5e52-4b00-8580-03ca35f7a94c.png">
+  <img  src="https://user-images.githubusercontent.com/38678270/127418162-047cc5ae-779f-43f8-9e22-100482aa9a36.png">
 </p>
 
 With the nearest neighbors result, comparing the results is quite subjective. Although the model isn't quite perfect, I can say it gives some pretty good recommendations. From what I hear, I can make out why the songs recommended were recommended.. although I may be biased. <br><br>
