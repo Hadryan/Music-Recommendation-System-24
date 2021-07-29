@@ -28,14 +28,14 @@ Some Models Included:
   - Testing F1 Score:   0.63
 
 - XGBClassifier + OHE + SMOTE: 
-  - Training F1 Score:  0.79
-  - Testing F1 Score:   0.67
+  - Training F1 Score:  0.88
+  - Testing F1 Score:   0.66
   
-- **Voting Classifier ((GradientBoostingClassifier + OHE + SMOTE) + (XGBClassifier + OHE + Balanced Class Weight))**
-  - **Training F1 Score:  0.75**
-  - **Testing F1 Score:   0.67**
+- **Voting Classifier ((GradientBoostingClassifier + OHE + SMOTE) + (XGBClassifier + OHE + Balanced Class Weight) + (RF + OHE + Balanced Class Weight))**
+  - **Training F1 Score: 0.76**
+  - **Testing F1 Score: 0.66**
 
-The Voting Classifier yielded the best training and testing score (when comparing unrounded). The models were never expected to get a high f1-score but moreso learn the general idea of what each genre is while getting most of the genres correct. The wrong genres may not be actually wrong but that the song may actually belong to another genre. 
+The Voting Classifier yielded the best testing score (when comparing unrounded) with the lowest variance. The models were never expected to get a high f1-score but moreso learn the general idea of what each genre is while getting most of the genres correct. The wrong genres may not be actually wrong but that the song may actually belong to another genre. 
 <br><br>
 
 <p align="center">
