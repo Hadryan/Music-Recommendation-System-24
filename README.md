@@ -20,20 +20,20 @@ When predicting the genres, the models consisted of Logistic Regressions, Gradie
 
 Some Models Included: 
 - FSM - Logistic Regression:
-  - Training F1 Score:  0.64
-  - Testing F1 Score:   0.60
+  - Training F1 Score:  0.63
+  - Testing F1 Score:   0.62
  
 - Logistic Regression + Pipeline(OHE + SS) + GridSearchCV:
-  - Training F1 Score:  0.65
-  - Testing F1 Score:   0.63
+  - Training F1 Score:  0.66
+  - Testing F1 Score:   0.64
 
 - XGBClassifier + OHE + SMOTE: 
-  - Training F1 Score:  0.88
+  - Training F1 Score:  0.79
   - Testing F1 Score:   0.66
   
 - **Voting Classifier ((GradientBoostingClassifier + OHE + SMOTE) + (XGBClassifier + OHE + Balanced Class Weight) + (RF + OHE + Balanced Class Weight))**
   - **Training F1 Score: 0.76**
-  - **Testing F1 Score: 0.66**
+  - **Testing F1 Score: 0.68**
 
 The Voting Classifier yielded the best testing score (when comparing unrounded) with the lowest variance. The models were never expected to get a high f1-score but moreso learn the general idea of what each genre is while getting most of the genres correct. The wrong genres may not be actually wrong but that the song may actually belong to another genre. 
 <br><br>
