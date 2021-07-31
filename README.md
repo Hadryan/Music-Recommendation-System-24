@@ -1,5 +1,5 @@
 # Music Recommendation System
-![music-recommendation](https://user-images.githubusercontent.com/38678270/127258075-efe394e4-0e29-4e23-a9f8-ca8b6fce4353.jpeg)
+![music-recommendation](https://user-images.githubusercontent.com/38678270/127258075-efe394e4-0e29-4e23-a9f8-ca8b6fce4353.jpeg) <sup>Getty Images</sup>
 
 ### Business Problem:
 
@@ -9,7 +9,7 @@ Spotify tends to label the genre of songs based off what genre the artist falls 
 
 ---
 ### Methods
-The data was acquired, through the Spotify api alongside the Spotipy library, from various playlists. The dataset included over 5000 songs, extracted from a JSON object returned from the API, ranging from genres of what users classified as Hip-hop, Pop, Alternative Metal, and Rock. 
+The data was acquired through the [Spotify API](https://developer.spotify.com/documentation/web-api/) alongside the [Spotipy library](https://spotipy.readthedocs.io/en/2.18.0/#). A Client ID, a Client Secret ID, and a Redirct URI is necessary to access the Spotify API which any developer can do by sigining into the Spotify Devloper page. The dataset included over 5000 songs, extracted from a JSON object returned from the API, ranging from genres of what users classified as Hip-hop, Pop, Alternative Metal, and Rock pulled from various user-created playlists. 
 
 We want to score the model based on how correct it was in predicting the overall genre as well as taking a loss for predicting an incorrect genre. Since the severity of getting a genre wrong isn't high, the F1 score will be our metric since we want the model to get a general idea of what each genre may be. The f1-score won’t necessarily be extremely close to 1 because it may predict a hip-hop song as pop song and vice-versa and that line in actuality is sometimes blurred.  
 
