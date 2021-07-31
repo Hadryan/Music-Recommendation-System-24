@@ -15,6 +15,23 @@ We want to score the model based on how correct it was in predicting the overall
 
 When predicting the genres, the models consisted of Logistic Regressions, Gradient Boosted Classifiers, XGBoost Classifiers, and Voting Classifier. The data was altered using a combination of One Hot Encoder, SMOTE, Grid Search, Standard Scaling, Pipelines, or Normalization. When predicting for recommendations of songs, the model was the Nearest Neighbors with an n_neighbors of 15, the metric as cosine simliarity, and the radius of 0.45. 
 
+  *Libraries Used*:
+  
+        - Numpy
+        - Pandas
+        - Spotipy
+        - Matplotlib
+        - Dotenv
+        - Seaborn
+        - OS
+        - Scipy
+        - Pickle
+        - SKLearn
+        - Imbalanced Learning
+        - XGBoost
+        - Shap
+        - Streamlit
+    
 ---
 ### Results
 
