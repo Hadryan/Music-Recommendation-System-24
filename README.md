@@ -3,9 +3,11 @@
 
 ### Business Problem:
 
-Musicians, often times, have varying styles from album to album and from track to track. They tend to dislike  being put in a “genre” box which many organizations tend to do. For example, following his first Grammy win for his album “Igor” in 2020, Tyler the Creator "admitted that while he was "very grateful" for his win, the categorizing of his album as rap was a "backhanded compliment." 
+Musicians, often times, have varying styles from album to album and from track to track. They tend to dislike  being put in a “genre” box which many organizations tend to do. For example, following his first Grammy win for his album “Igor” in 2020, Tyler the Creator "admitted that while he was "very grateful" for his win, the categorizing of his album as rap was a "backhanded compliment."<sup>[1]</sup>
 
 Spotify tends to label the genre of songs based off what genre the artist falls under which is quite unfair to an artist if said artist wants to branch out. Not only that, if a user likes just a particular song from an artist, but not every song from said artist, how can one recommend songs based off that particular song without influence from the artists genre? Can we use the predicted genre of a song, as well as other features, to make better song recommendations based off an inputted song?
+
+<sup>[1]: [Tyler, The Creator slams Grammys..](https://www.cnn.com/2020/01/27/entertainment/tyler-the-creator-grammys-intl-scli/index.html)</sup>
 
 ---
 ### Methods
