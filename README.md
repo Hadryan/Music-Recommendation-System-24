@@ -17,20 +17,20 @@ When predicting the genres, the models consisted of Logistic Regressions, Gradie
 
   *Libraries Used*:
   
-        - Numpy
-        - Pandas
-        - Spotipy
-        - Matplotlib
-        - Dotenv
-        - Seaborn
-        - OS
-        - Scipy
-        - Pickle
-        - SKLearn
-        - Imbalanced Learning
-        - XGBoost
-        - Shap
-        - Streamlit
+   - [Numpy](www.numpy.org)
+   - [Pandas](https://pandas.pydata.org/)
+   - [Spotipy](https://spotipy.readthedocs.io/en/2.18.0/#)
+   - [Matplotlib](https://matplotlib.org/)
+   - [Dotenv](https://www.npmjs.com/package/dotenv)
+   - [Seaborn](https://seaborn.pydata.org/)
+   - [OS](https://docs.python.org/3/library/os.html)
+   - [Scipy](https://www.scipy.org/)
+   - [Pickle](https://docs.python.org/3/library/pickle.html)
+   - [SKLearn](https://scikit-learn.org/stable/)
+   - [Imbalanced Learning](https://imbalanced-learn.org/stable/)
+   - [XGBoost](https://xgboost.readthedocs.io/en/latest/)
+   - [Shap](https://pypi.org/project/shap/)
+   - [Streamlit](https://streamlit.io/)
     
 ---
 ### Results
