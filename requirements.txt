@@ -1,6 +1,6 @@
 spotipy
 python-dotenv
--U scikit-learn
+scikit-learn
 xgboost
 pickle==0.23.2
 pandas
