@@ -61,8 +61,10 @@ def formatted_song_artist(sp, query):
     else:
         return None
 # Authorize spotify api object
-scope = "user-library-read"
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
+# scope = "user-library-read"
+# sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
+client_credentials_manager = SpotifyClientCredentials()
+sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # Import necessary pickled files
 infile = open('pickled_files/all_songs_genre_predicted.pickle','rb')
