@@ -128,6 +128,8 @@ We were able to first predict the genre of user inputted song and provide recomm
 ---
 ### For More Information
 
+Try the [app](https://share.streamlit.io/jasonarikupurathu/music-recommendation-system/main/app.py) yourself!
+
 Please review the jupyter notebooks for analysis or view the [presentation](https://docs.google.com/presentation/d/1OVD3tPFMMoHLEK7HiTFsT0MCqxPxAglEr43XIT2fQG0/edit?usp=sharing).
 
 ---
