@@ -1,6 +1,7 @@
 spotipy
 python-dotenv
-scikit-learn
+-U scikit-learn
 xgboost
+pickle==0.23.2
 pandas
 numpy
