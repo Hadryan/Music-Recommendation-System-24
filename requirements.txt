@@ -5,4 +5,3 @@ xgboost
 pickle
 pandas
 numpy
-load_dotenv()
