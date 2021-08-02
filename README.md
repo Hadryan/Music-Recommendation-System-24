@@ -141,6 +141,7 @@ Please review the jupyter notebooks for analysis or view the [presentation](http
     ├── Notebook-2-Predict-Genre-Data-Modeling.ipynb      <- Notebook for genre prediction and model
     ├── Notebook-3-Nearest-Neighbors-Data-Modeling.ipynb  <- Notebook for music recommendations
     ├── app.py                                            <- Streamlit app of model
+    ├── requirements.txt                                  <- Text file consisting of packages & package versions used for deployment   
     └── pickled_files                                     <- Contains Pickled Files
         └ df.pickle                                           <- DataFrame cleaned to predict genres pickled
         └ all_songs_genre_predicted.pickle                    <- Dataframe with genres predicted pickled
