@@ -2,3 +2,7 @@ spotipy
 python-dotenv
 scikit-learn
 xgboost
+pickle
+pandas
+numpy
+load_dotenv()
