@@ -1,0 +1,7 @@
+spotipy
+python-dotenv
+scikit-learn
+xgboost
+pickle-mixin
+pandas
+numpy
