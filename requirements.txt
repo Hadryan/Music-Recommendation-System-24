@@ -2,6 +2,6 @@ spotipy
 python-dotenv
 scikit-learn
 xgboost
-pickle
+pickle-mixin
 pandas
 numpy
